@@ -1,0 +1,38 @@
+{
+  "name": "folder-tree-creator",
+  "displayName": "Folder Tree Creator",
+  "description": "Create folders and files from pasted folder tree structure.",
+  "version": "1.0.0",
+  "publisher": "mdomarsahil",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:folderTreeCreator.open"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "folderTreeCreator.open",
+        "title": "Open Folder Tree Creator"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^18.19.110",
+    "@types/vscode": "^1.75.0",
+    "typescript": "^5.0.0",
+    "vscode-test": "^1.6.0"
+  }
+}
