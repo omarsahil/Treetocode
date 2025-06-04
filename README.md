@@ -15,4 +15,4 @@ A Visual Studio Code extension that lets you paste a folder structure and create
 
 ---
 
-Made with ❤️ by [Omar Sahil]
+Made with ❤️ by Omar Sahil
